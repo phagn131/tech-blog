@@ -17,31 +17,17 @@ This is a overview of the functionality of a CMS-style blog site. When visiting 
 
 The following animation demonstrates the application functionality:
 
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
-
-## Getting Started
-
-Your application’s folder structure must follow the Model-View-Controller paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views, use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
-
-You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
-
-**Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-    * Application’s folder structure follows the Model-View-Controller paradigm.
-
-    * Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
-
-    * Application must be deployed to Heroku.
+![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/image/14-mvc-homework-demo-01.gif) 
 
 ### Technical Tools 
 
-Connects to a MySQL database using the MySQL2(https://www.npmjs.com/package/mysql) and Sequelize(https://www.npmjs.com/package/sequelize) packages.
+Uses the express-handlebars(https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
 
-Stores sensitive data, like a user’s MySQL username, password, and database name, using environment variables through the dotenv(https://www.npmjs.com/package/dotenv) package.
+Uses MySQL2(https://www.npmjs.com/package/mysql2) and Sequelize(https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
+
+Uses dotenv package(https://www.npmjs.com/package/dotenv) to use environment variables 
+The bcrypt package(https://www.npmjs.com/package/bcrypt) to hash passwords
+The express-session(https://www.npmjs.com/package/express-session) and connect-session-sequelize(https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
 ## License
 
@@ -51,10 +37,10 @@ Stores sensitive data, like a user’s MySQL username, password, and database na
 
 - These are the (2) items required for submission
   1.  The url ling to Heroku deployment
-      https://github.com/phagn131/e-commerce-back-end 
+      -ADD HEROKU LINK 
       
   2.  The URL of the GitHub repository that contains your code
-      https://github.com/phagn131/e-c
+      https://github.com/phagn131/tech-blog
 
 ## Contact Information:
 - Github: [phagn13@github.com](https://github.com/phagn13@github.com)
