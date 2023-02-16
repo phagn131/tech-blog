@@ -38,7 +38,7 @@ The express-session(https://www.npmjs.com/package/express-session) and connect-s
 - These are the (2) items required for submission
   1.  The url ling to Heroku deployment
       -ADD HEROKU LINK 
-      
+      https://secure-taiga-26624.herokuapp.com/
   2.  The URL of the GitHub repository that contains your code
       https://github.com/phagn131/tech-blog
 
