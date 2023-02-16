@@ -18,6 +18,8 @@
     "express-handlebars": "^5.2.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5",
-    "heroku": "^7.68.0"
+    "heroku": "^7.68.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
   }
 }
